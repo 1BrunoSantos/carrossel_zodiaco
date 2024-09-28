@@ -18,3 +18,16 @@
     align-items: center;
     justify-content: center;
 }
+
+.slider-images {
+    display: flex;
+    align-items: 'center';
+    gap: 20px;
+}
+
+.slider-images img {
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+    border-radius: 10px;
+}
